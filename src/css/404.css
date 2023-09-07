@@ -1,0 +1,28 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+.text-center {
+  position: absolute;
+  width: 40%;
+  top: 10%;
+  text-align: center;
+  left: calc((100% - 40% )/2);
+  color: white;
+}
+.text-center h1 {
+  font-size: 11em;
+  font-family: 'Montserrat', sans-serif;
+  margin: 2rem;
+}
+.text-center h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0%;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 0px 5px #fff;
+    
+
+}
