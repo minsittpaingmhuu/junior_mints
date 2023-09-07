@@ -39,10 +39,11 @@ border-bottom: 1px solid #e5e9f2;
 <title>Profile</title>
 <link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
 </head><body>
-    <?php if($_GET['error']==='adminok'){?>
+    
+<div class="container p-0">
+<?php if($_GET['error']==='adminok'){?>
             <div class="alert alert-primary"><h3>Updated Successfully</h3></div>
         <?php }?>
-<div class="container p-0">
 <h1 class="h3 mb-3"><a href="/"><img src="src/img/logo.png" height="60px" alt="logo"></a>Welcome back <?php echo $row['username'];?>!</h1>
 <div class="row">
 <div class="col-md-5 col-xl-4">

@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
     if(checkToken($conn,$email, $token)){
             header("location: /changepass?error=tokenMatch&email=$email");
         }else{
-            header("location: /changepass?error=invaildToken&email=$email");
+            header("location: /entertoken?error=invaildToken&email=$email");
         }
 }else{
     header("location: /forbidden");
