@@ -34,14 +34,15 @@
                 <div class="cart-content">
                 
                     <div class="cart-box">
-                        <img style="display:none;" src="src/img/logo.png" alt="" class="cart-img" />
-                        <div class="detail-box " style="display:none;">
+                        <img  src="src/img/logo.png" alt="" class="cart-img" />
+                        <div class="detail-box" style="display:none" >
                             <div class="cart-product-title">Enjoy our Shop?</div>
                             <div class="cart-price">$0</div>
-                            <input type="text" readonly value="1" class="cart-quantity" />
+                            <input type="text" readonly value="0" class="cart-quantity" />
+                            <i class="bx bx-trash-alt cart-remove"></i>
+
                             </div>
                             
-                            <i style="display:none;" class="bx bx-trash-alt cart-remove"></i>
                     </div>
                 </div>
                 <!--Total-->
