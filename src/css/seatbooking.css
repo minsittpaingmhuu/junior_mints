@@ -1,0 +1,202 @@
+:root {
+  --success-color: #23cc71;
+  --error-color: #e74c3c;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  color: antiquewhite;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /*for seat */
+  margin: 0;
+}
+
+#h3 { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson!important;
+    font-weight: 60px;
+}
+
+.container {
+  color:  rgb(200, 224, 156);
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px  rgba(246, 238, 238, 0.3);
+  width: 400px;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+#match {
+  padding: 10px;
+}
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #f0f4f7;
+  border: 2px solid #131313;
+  border-radius: 4px;
+  color: #000000;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.imgcontainer { 
+  left: 10%; right: 10%;
+  top: 40px;
+  text-align: center;
+}
+
+.headingtext {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(95, 180, 152);
+}
+
+/*top menu bar*/
+.topnav {
+  position: absolute;
+  padding: 30px;
+  top: 20px;
+  left: 50px;
+  right: 50px;
+  background-color: none;
+  color: white;
+}
+
+
+.topnav a {
+  float: justify;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #04aa62;
+  color: white;
+  padding-right: 45px;
+  padding-left: 45px;
+}
+
+/*info for dnt*/
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #95c0b4;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  color:  rgb(200, 224, 156);
+  border: 1px solid ;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  display: none;
+}
+
+
+.aaa{
+  max-width: 10px!important;
+}
