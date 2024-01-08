@@ -11,10 +11,9 @@ I created this as 1st Year University Final Project. This project implements a f
 - `Password Reset`: Added Password Reset Features using PHP Mailer.
 
 ## Usage
-
-    ```bash
-    php -S localhost:5000
-    ```
+```bash
+   php -S localhost:5000
+```
 
 - The App is accessible at `http://127.0.0.1:5000/`.
 
