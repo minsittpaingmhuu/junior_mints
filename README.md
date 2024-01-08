@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a football club website using HTML,CSS,JS,PHP,Mailer and MySQL. I used pure JS and PHP to understand them more properly.
+I created this as 1st Year University Final Project. This project implements a football club website using HTML,CSS,JS,PHP,Mailer and MySQL. I used pure JS and PHP to understand them more properly.
 
 ## Features
 
